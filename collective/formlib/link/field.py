@@ -2,7 +2,7 @@ from zope import interface
 from zope import component
 from zope import schema
 
-from zope.app.component.hooks import getSite
+from zope.component.hooks import getSite
 
 from Products.CMFCore.utils import getToolByName
 
